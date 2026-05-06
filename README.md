@@ -1,1 +1,1 @@
-# betteryou-club
+# bettryou-club
