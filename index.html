@@ -1,0 +1,1034 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bettr You — Wellness &amp; Nutrition Coaching</title>
+<meta name="description" content="Voel je lichter, energieker en sterker. Persoonlijke wellness &amp; nutrition coaching in Nederland — zonder strenge diëten."/>
+<meta property="og:url" content="http://bettryou.nl"/>
+<meta property="og:title" content="Bettr You — Wellness &amp; Nutrition Coaching"/>
+<meta property="og:description" content="Voel je lichter, energieker en sterker. Persoonlijke wellness &amp; nutrition coaching in Nederland — zonder strenge diëten."/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&h=630&fit=crop"/>
+<link rel="canonical" href="http://bettryou.nl"/>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JT1TE141YV"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-JT1TE141YV');</script>
+
+<!-- Facebook Pixel -->
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1141852247812985');fbq('track','PageView');</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1141852247812985&ev=PageView&noscript=1"/></noscript>
+
+<style>
+/* ============================================================
+   Bettr You — Colors & Type
+   ============================================================ */
+:root {
+  --by-sage-900: #3f5536;
+  --by-sage-700: #5f8253;
+  --by-sage-600: #638756;
+  --by-sage-500: #799e7d;
+  --by-sage-300: #cdd6c9;
+  --by-sage-200: #d4ded0;
+  --by-sage-100: #e6ecdf;
+  --by-cream-900: #2a2418;
+  --by-cream-500: #c9a76a;
+  --by-cream-400: #d9bf8a;
+  --by-cream-300: #f1e6d6;
+  --by-cream-200: #f2e7d7;
+  --by-cream-100: #f7efe1;
+  --by-cream-50:  #faf6ee;
+  --by-ink:        #1a1d17;
+  --by-ink-2:      #3a3f33;
+  --by-ink-3:      #6b6f63;
+  --by-line:       #e7e2d4;
+  --by-line-sage:  #c8d2c3;
+  --by-white:      #ffffff;
+  --by-off-white:  #fbfaf6;
+  --by-success: #5f8253;
+  --by-warning: #c9a76a;
+  --by-info:    #05276e;
+  --by-info-bg: #bed6f1;
+  --color-bg:           var(--by-cream-50);
+  --color-bg-elevated:  var(--by-white);
+  --color-bg-tint:      var(--by-cream-100);
+  --color-bg-sage:      var(--by-sage-200);
+  --color-bg-cream:     var(--by-cream-200);
+  --color-fg:           var(--by-ink);
+  --color-fg-2:         var(--by-ink-2);
+  --color-fg-3:         var(--by-ink-3);
+  --color-fg-on-sage:   var(--by-cream-50);
+  --color-fg-on-dark:   var(--by-cream-50);
+  --color-accent:       var(--by-sage-600);
+  --color-accent-soft:  var(--by-sage-300);
+  --color-gold:         var(--by-cream-500);
+  --color-border:       var(--by-line);
+  --color-border-strong:#d6cfbd;
+  --font-serif: "Cormorant Garamond","Iowan Old Style","Apple Garamond",Georgia,serif;
+  --font-sans:  "Manrope",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --font-mono:  ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --fs-display: clamp(48px, 6.4vw, 96px);
+  --fs-h1:      clamp(40px, 4.4vw, 64px);
+  --fs-h2:      clamp(32px, 3.2vw, 48px);
+  --fs-h3:      clamp(24px, 2.2vw, 32px);
+  --fs-h4:      20px;
+  --fs-lead:    20px;
+  --fs-body:    17px;
+  --fs-small:   15px;
+  --fs-xs:      13px;
+  --fs-eyebrow: 12px;
+  --lh-tight:   1.05;
+  --lh-snug:    1.2;
+  --lh-normal:  1.55;
+  --lh-loose:   1.7;
+  --ls-tight:   -0.02em;
+  --ls-normal:  0;
+  --ls-wide:    0.08em;
+  --ls-eyebrow: 0.18em;
+  --sp-1:  4px;  --sp-2:  8px;  --sp-3:  12px; --sp-4:  16px;
+  --sp-5:  24px; --sp-6:  32px; --sp-7:  48px; --sp-8:  64px;
+  --sp-9:  96px; --sp-10: 128px;
+  --r-xs: 6px; --r-sm: 10px; --r-md: 16px; --r-lg: 22px; --r-xl: 32px; --r-pill: 999px;
+  --shadow-xs: 0 1px 2px rgba(42,36,24,0.04);
+  --shadow-sm: 0 2px 6px rgba(42,36,24,0.05),0 1px 2px rgba(42,36,24,0.04);
+  --shadow-md: 0 8px 24px -8px rgba(42,36,24,0.10),0 2px 6px rgba(42,36,24,0.05);
+  --shadow-lg: 0 24px 48px -16px rgba(42,36,24,0.14),0 6px 12px rgba(42,36,24,0.06);
+  --shadow-ring: 0 0 0 1px rgba(42,36,24,0.06);
+  --ease-out:  cubic-bezier(0.22,0.61,0.36,1);
+  --ease-soft: cubic-bezier(0.4,0,0.2,1);
+  --dur-1: 120ms; --dur-2: 200ms; --dur-3: 320ms; --dur-4: 520ms;
+}
+
+/* Type classes */
+.by-display{font-family:var(--font-serif);font-weight:500;font-size:var(--fs-display);line-height:var(--lh-tight);letter-spacing:var(--ls-tight);color:var(--color-fg)}
+.by-display em,.by-display i{font-style:italic;color:var(--by-sage-700);font-weight:500}
+.by-h1{font-family:var(--font-serif);font-weight:500;font-size:var(--fs-h1);line-height:1.08;letter-spacing:var(--ls-tight);color:var(--color-fg)}
+.by-h2{font-family:var(--font-serif);font-weight:500;font-size:var(--fs-h2);line-height:1.12;letter-spacing:var(--ls-tight);color:var(--color-fg)}
+.by-h3{font-family:var(--font-sans);font-weight:600;font-size:var(--fs-h3);line-height:var(--lh-snug);letter-spacing:-0.01em;color:var(--color-fg)}
+.by-h4{font-family:var(--font-sans);font-weight:600;font-size:var(--fs-h4);line-height:1.3;color:var(--color-fg)}
+.by-lead{font-family:var(--font-sans);font-weight:400;font-size:var(--fs-lead);line-height:var(--lh-normal);color:var(--color-fg-2)}
+.by-body{font-family:var(--font-sans);font-weight:400;font-size:var(--fs-body);line-height:var(--lh-normal);color:var(--color-fg-2)}
+.by-small{font-family:var(--font-sans);font-weight:400;font-size:var(--fs-small);line-height:var(--lh-normal);color:var(--color-fg-3)}
+.by-eyebrow{font-family:var(--font-sans);font-weight:600;font-size:var(--fs-eyebrow);letter-spacing:var(--ls-eyebrow);text-transform:uppercase;color:var(--by-sage-700)}
+
+/* Buttons */
+.by-btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--sp-2);padding:14px 28px;border-radius:var(--r-pill);font-family:var(--font-sans);font-weight:600;font-size:15px;letter-spacing:0.02em;border:1.5px solid transparent;cursor:pointer;transition:transform var(--dur-2) var(--ease-out),background-color var(--dur-2) var(--ease-out),color var(--dur-2) var(--ease-out),border-color var(--dur-2) var(--ease-out),box-shadow var(--dur-2) var(--ease-out);text-decoration:none;white-space:nowrap}
+.by-btn:active{transform:translateY(1px) scale(0.99)}
+.by-btn--primary{background:var(--by-sage-600);color:var(--by-cream-50)}
+.by-btn--primary:hover{background:var(--by-sage-700);box-shadow:var(--shadow-sm)}
+.by-btn--secondary{background:var(--by-cream-300);color:var(--by-sage-700)}
+.by-btn--secondary:hover{background:#e9dcc4}
+.by-btn--ghost{background:transparent;color:var(--color-fg);border-color:var(--color-border-strong)}
+.by-btn--ghost:hover{background:var(--by-cream-100);border-color:var(--by-ink-3)}
+.by-btn--sm{padding:10px 18px;font-size:13px}
+.by-btn--lg{padding:18px 36px;font-size:16px}
+
+/* Base */
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--color-bg);color:var(--color-fg);font-family:var(--font-sans);scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+img{display:block;max-width:100%}
+.container{max-width:1240px;margin:0 auto;padding:0 24px}
+@media(min-width:900px){.container{padding:0 48px}}
+section{padding:80px 0}
+@media(min-width:900px){section{padding:128px 0}}
+
+/* Modal */
+.modal-bg{position:fixed;inset:0;background:rgba(42,36,24,0.45);backdrop-filter:blur(8px);z-index:60;display:flex;align-items:center;justify-content:center;padding:24px;animation:fade .25s var(--ease-out)}
+.modal-card{background:var(--by-cream-50);border-radius:28px;padding:40px;max-width:520px;width:100%;box-shadow:var(--shadow-lg);animation:rise .35s var(--ease-out)}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* Reveal on scroll */
+.reveal{opacity:0;transform:translateY(14px);transition:opacity 600ms var(--ease-out),transform 600ms var(--ease-out)}
+.reveal.in{opacity:1;transform:translateY(0)}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+::selection{background:var(--by-sage-200);color:var(--by-ink)}
+html{scroll-padding-top:80px}
+</style>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const { useState, useEffect } = React;
+
+/* ── Logo (icon webp + text) ── */
+function Logo({iconH, fontSize, subSize, gap}){
+  iconH    = iconH    || 52;
+  fontSize = fontSize || 34;
+  subSize  = subSize  || 8.5;
+  gap      = gap      || 12;
+  return (
+    <div style={{display:'flex', alignItems:'center', gap}}>
+      <img
+        src="assets/logo-bettr-you.webp"
+        alt="Bettr You icon"
+        style={{
+          height: iconH, width: 'auto', flexShrink: 0,
+          mixBlendMode: 'multiply',
+          filter: 'drop-shadow(0 2px 10px rgba(42,36,24,0.18)) drop-shadow(0 1px 3px rgba(42,36,24,0.09))',
+        }}
+      />
+      <div style={{lineHeight:1}}>
+        <div style={{
+          fontFamily:"'Cormorant Garamond',Georgia,serif",
+          fontSize, fontWeight:500,
+          color:'#5f8253',
+          letterSpacing:'-0.01em',
+          lineHeight:1.05,
+        }}>Bettr You</div>
+        <div style={{
+          fontFamily:"'Manrope',Arial,sans-serif",
+          fontSize: subSize, fontWeight:600,
+          color:'#6b6f63',
+          letterSpacing:'0.18em',
+          textTransform:'uppercase',
+          marginTop:4,
+        }}>Wellness &amp; Nutrition Coaching</div>
+      </div>
+    </div>
+  );
+}
+
+/* ── Nav ── */
+function Nav({onBook}){
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  useEffect(()=>{
+    const onScroll = ()=> setScrolled(window.scrollY > 24);
+    window.addEventListener('scroll', onScroll, {passive:true});
+    return ()=> window.removeEventListener('scroll', onScroll);
+  },[]);
+  const links = [
+    {href:'#voordelen', label:'Voordelen'},
+    {href:'#programmas', label:"Programma's"},
+    {href:'#producten', label:'Producten'},
+    {href:'#verhalen', label:'Verhalen'},
+    {href:'#coach', label:'Coach'},
+    {href:'#lidmaatschap', label:'Start vandaag'},
+  ];
+  const langPages = {NL:'/',EN:'/page70367507.html',RU:'/page70097027.html',LT:'/page72237353.html'};
+  return (
+    <nav style={{
+      position:'sticky',top:0,zIndex:40,
+      background:scrolled?'rgba(250,246,238,0.82)':'transparent',
+      backdropFilter:scrolled?'blur(14px)':'none',
+      borderBottom:scrolled?'1px solid var(--by-line)':'1px solid transparent',
+      transition:'all 320ms var(--ease-out)',
+    }}>
+      <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between',padding:'12px 28px'}}>
+        <a href="#" style={{display:'flex',alignItems:'center',gap:10}}>
+          <Logo iconH={48} fontSize={32} subSize={8} gap={12}/>
+        </a>
+        <div className="nav-links" style={{display:'none',gap:32,alignItems:'center'}}>
+          {links.map(l => (
+            <a key={l.href} href={l.href} style={{fontSize:14,fontWeight:500,color:'var(--by-ink-2)',transition:'color 200ms',cursor:'pointer'}}
+              onMouseEnter={e=>e.target.style.color='var(--by-sage-700)'}
+              onMouseLeave={e=>e.target.style.color='var(--by-ink-2)'}
+            >{l.label}</a>
+          ))}
+        </div>
+        <div style={{display:'flex',alignItems:'center',gap:10}}>
+          <select
+            onChange={e=>{ if(langPages[e.target.value]) window.location.href=langPages[e.target.value]; }}
+            style={{background:'transparent',border:'1px solid var(--by-line)',borderRadius:999,padding:'8px 14px',fontSize:13,fontFamily:'inherit',color:'var(--by-ink-2)',cursor:'pointer'}}>
+            <option value="NL">NL</option>
+            <option value="EN">EN</option>
+            <option value="RU">RU</option>
+            <option value="LT">LT</option>
+          </select>
+          <button onClick={onBook} className="by-btn by-btn--primary by-btn--sm">BOEK CONSULT</button>
+        </div>
+      </div>
+      <style>{`@media(min-width:900px){.nav-links{display:flex !important}}`}</style>
+    </nav>
+  );
+}
+
+/* ── Hero ── */
+function Hero({onBook}){
+  return (
+    <section style={{padding:'32px 0 72px',position:'relative',overflow:'hidden'}}>
+      <div aria-hidden="true" style={{
+        position:'absolute',top:-120,right:-120,width:520,height:520,borderRadius:'50%',
+        background:'radial-gradient(circle, var(--by-sage-100) 0%, transparent 70%)',
+        opacity:0.7,pointerEvents:'none'
+      }}/>
+      <div className="container" style={{position:'relative'}}>
+        <style>{`
+          @media(min-width:960px){
+            .hero-grid{grid-template-columns:1.05fr 1fr !important;gap:88px !important}
+            .hero-image{aspect-ratio:4/5 !important;height:auto !important}
+          }
+        `}</style>
+        <div className="hero-grid" style={{display:'grid',gridTemplateColumns:'1fr',gap:48,alignItems:'center'}}>
+          <div className="reveal">
+            <div className="by-eyebrow" style={{marginBottom:22,display:'inline-flex',alignItems:'center',gap:10}}>
+              <span style={{width:6,height:6,borderRadius:'50%',background:'var(--by-sage-600)'}}/>
+              Wellness · coaching · community
+            </div>
+            <h1 className="by-display" style={{margin:'0 0 26px',fontSize:'clamp(46px, 6.6vw, 88px)',textWrap:'balance'}}>
+              Voel je <em>lichter</em>,<br/>energieker<br/>en sterker.
+            </h1>
+            <p className="by-lead" style={{margin:'0 0 40px',maxWidth:520}}>
+              Een persoonlijk voedingsplan, een coach die met je meedenkt, en een hechte community die je motiveert. Zonder strenge diëten of honger.
+            </p>
+            <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
+              <button onClick={onBook} className="by-btn by-btn--primary by-btn--lg">START JE REIS</button>
+              <button onClick={onBook} className="by-btn by-btn--ghost by-btn--lg">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{marginRight:2}}><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                Boek gratis consult
+              </button>
+            </div>
+            <div style={{display:'flex',alignItems:'center',gap:16,marginTop:38,fontSize:13,color:'var(--by-ink-3)'}}>
+              <div style={{display:'flex'}}>
+                {[
+                  'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=80&h=80&fit=crop&crop=faces',
+                  'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop&crop=faces',
+                  'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=faces',
+                  'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&crop=faces',
+                ].map((src,i) => (
+                  <img key={i} src={src} alt="" style={{
+                    width:36,height:36,borderRadius:'50%',
+                    border:'2.5px solid var(--by-cream-50)',
+                    marginLeft:i?-12:0,objectFit:'cover',boxShadow:'var(--shadow-xs)',
+                  }}/>
+                ))}
+              </div>
+              <span><b style={{color:'var(--by-ink)',fontWeight:700}}>2.000+</b> mensen begeleid · gemiddeld <b style={{color:'var(--by-ink)'}}>4,9</b> ★</span>
+            </div>
+          </div>
+
+          <div className="reveal" style={{position:'relative'}}>
+            <div className="hero-image" style={{
+              aspectRatio:'4/5',borderRadius:28,overflow:'hidden',
+              boxShadow:'var(--shadow-lg)',position:'relative',background:'var(--by-sage-100)',
+            }}>
+              <img
+                src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=900&h=1100&fit=crop"
+                alt="Vrouw geniet van een gezond ontbijt in natuurlijk daglicht"
+                style={{width:'100%',height:'100%',objectFit:'cover',display:'block'}}
+              />
+              <div aria-hidden="true" style={{
+                position:'absolute',inset:'auto 0 0 0',height:'30%',
+                background:'linear-gradient(to top, rgba(42,36,24,0.18), transparent)',pointerEvents:'none'
+              }}/>
+            </div>
+
+            <div style={{
+              position:'absolute',bottom:-22,left:-14,
+              background:'var(--by-cream-50)',borderRadius:20,padding:'14px 18px',
+              boxShadow:'var(--shadow-md)',display:'flex',gap:12,alignItems:'center',maxWidth:240,
+              border:'1px solid var(--by-line)',animation:'float 6s ease-in-out infinite'
+            }}>
+              <div style={{width:42,height:42,borderRadius:'50%',background:'var(--by-sage-100)',display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--by-sage-700)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              </div>
+              <div style={{fontSize:13,lineHeight:1.4}}>
+                <b style={{display:'block',color:'var(--by-ink)',fontWeight:600}}>Geld terug</b>
+                <span style={{color:'var(--by-ink-3)'}}>als je je doel niet behaalt</span>
+              </div>
+            </div>
+
+            <div style={{
+              position:'absolute',top:24,right:-12,
+              background:'var(--by-cream-50)',borderRadius:'var(--r-pill)',
+              padding:'10px 16px 10px 12px',
+              boxShadow:'var(--shadow-md)',display:'flex',gap:10,alignItems:'center',
+              border:'1px solid var(--by-line)',animation:'float 7s ease-in-out infinite reverse'
+            }}>
+              <div style={{width:30,height:30,borderRadius:'50%',background:'var(--by-cream-300)',display:'flex',alignItems:'center',justifyContent:'center'}}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--by-cream-500)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
+              </div>
+              <div style={{fontSize:12.5,lineHeight:1.3}}>
+                <b style={{color:'var(--by-ink)',fontWeight:600}}>+27% energie</b>
+                <span style={{color:'var(--by-ink-3)',display:'block',fontSize:11}}>na 2 weken (gem.)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>{`@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}`}</style>
+    </section>
+  );
+}
+
+/* ── Benefits ── */
+function Benefits(){
+  const benefits = [
+    {t:'Gewichtsbeheersing',d:'Blijvend afvallen op een rustige, gezonde manier — zonder jojo-effect of strenge diëten.',icon:<><path d="M5 13a7 7 0 1 0 14 0c0-3-2-6-7-11-5 5-7 8-7 11Z"/><path d="M12 2v8"/></>},
+    {t:'Meer energie',d:'Voel je fitter en wakker — voeding die je dag draagt in plaats van middagdips.',icon:<path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/>},
+    {t:'Gezonde voeding',d:'Uitgebalanceerde maaltijden en shakes met de juiste eiwitten, vitaminen en mineralen.',icon:<><path d="M12 2a4 4 0 0 1 4 4c0 2-2 4-4 4s-4-2-4-4a4 4 0 0 1 4-4Z"/><path d="M5 12c0 5 3 10 7 10s7-5 7-10c0-3-3-4-7-4s-7 1-7 4Z"/></>},
+    {t:'Persoonlijke coaching',d:'1-op-1 met een voedingsexpert die je kent, je plan opstelt en je voortgang volgt.',icon:<><circle cx="12" cy="8" r="4"/><path d="M3 21c0-5 4-8 9-8s9 3 9 8"/></>},
+    {t:'Community support',d:'Een hechte groep die je motiveert. 24/7 support, marathons en momenten samen.',icon:<><circle cx="9" cy="9" r="3"/><circle cx="17" cy="9" r="3"/><path d="M3 19c0-3 3-5 6-5s6 2 6 5M14 19c0-2 1-3 3-3s4 1 4 3"/></>},
+    {t:'Gezonde levensstijl',d:'Slaap, beweging, voeding en mindset — kleine gewoontes die blijvend verschil maken.',icon:<><path d="M3 12h4l3-9 4 18 3-9h4"/></>},
+  ];
+  return (
+    <section id="voordelen" style={{background:'var(--by-cream-200)',padding:'112px 0'}}>
+      <div className="container">
+        <div className="reveal" style={{marginBottom:64}}>
+          <style>{`@media(min-width:900px){.benefits-head{grid-template-columns:1.1fr 1fr !important}}`}</style>
+          <div className="benefits-head" style={{display:'grid',gridTemplateColumns:'1fr',gap:32,alignItems:'end'}}>
+            <div>
+              <div className="by-eyebrow" style={{marginBottom:14}}>Voordelen</div>
+              <h2 className="by-h1" style={{margin:0,textWrap:'balance'}}>Zes redenen om<br/><em style={{color:'var(--by-sage-700)'}}>vandaag</em> te beginnen.</h2>
+            </div>
+            <p className="by-lead" style={{margin:0,maxWidth:420}}>
+              Echte resultaten al vanaf de eerste dag — meer energie, beter gevoel en zichtbare vooruitgang. Begeleid door experts die je kennen.
+            </p>
+          </div>
+        </div>
+        <div className="reveal" style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(280px,1fr))',gap:20}}>
+          {benefits.map((b,i)=>(
+            <div key={i} style={{
+              background:'var(--by-cream-50)',borderRadius:22,padding:'32px 28px',
+              boxShadow:'var(--shadow-sm)',transition:'transform 320ms var(--ease-out),box-shadow 320ms var(--ease-out)',cursor:'default',
+            }}
+              onMouseEnter={e=>{e.currentTarget.style.transform='translateY(-3px)';e.currentTarget.style.boxShadow='var(--shadow-md)'}}
+              onMouseLeave={e=>{e.currentTarget.style.transform='translateY(0)';e.currentTarget.style.boxShadow='var(--shadow-sm)'}}
+            >
+              <div style={{width:56,height:56,borderRadius:'50%',background:'var(--by-sage-100)',display:'flex',alignItems:'center',justifyContent:'center',marginBottom:24,position:'relative'}}>
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--by-sage-700)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">{b.icon}</svg>
+                <div aria-hidden="true" style={{position:'absolute',inset:-6,borderRadius:'50%',border:'1px dashed var(--by-line-sage)',opacity:0.5}}/>
+              </div>
+              <h3 style={{margin:'0 0 10px',fontSize:20,fontWeight:600,fontFamily:'var(--font-sans)',letterSpacing:'-0.01em'}}>{b.t}</h3>
+              <p style={{margin:0,fontSize:15,lineHeight:1.6,color:'var(--by-ink-3)'}}>{b.d}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── Programs ── */
+function Programs(){
+  const programs = [
+    {t:'Afslankprogramma',d:'Blijvend gewicht verliezen op een rustige, gezonde manier. Persoonlijk plan, slimme producten en wekelijkse coaching.',duration:'12 weken',img:'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&h=600&fit=crop'},
+    {t:'Energie & welzijn',d:'Voor wie meer pit, betere slaap en stralende huid wil. Voeding die je dag draagt — geen middagdips meer.',duration:'8 weken',img:'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop'},
+    {t:'Sportvoeding',d:'Eiwitten, herstel en uithoudingsvermogen. Slimmer trainen, sneller herstellen, sterker worden.',duration:'10 weken',img:'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&h=600&fit=crop'},
+    {t:'Gezonde dagelijkse gewoonten',d:'Kleine routines met grote impact: ontbijtroutine, hydratatie, beweging en mindset. Voor het lange spel.',duration:'doorlopend',img:'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop'},
+  ];
+  return (
+    <section id="programmas" style={{padding:'128px 0'}}>
+      <div className="container">
+        <div className="reveal" style={{marginBottom:64}}>
+          <style>{`@media(min-width:900px){.programs-head{grid-template-columns:1.1fr 1fr !important}.programs-grid{grid-template-columns:1fr 1fr !important}}`}</style>
+          <div className="programs-head" style={{display:'grid',gridTemplateColumns:'1fr',gap:32,alignItems:'end'}}>
+            <div>
+              <div className="by-eyebrow" style={{marginBottom:14}}>Programma's</div>
+              <h2 className="by-h1" style={{margin:0,textWrap:'balance'}}>Vier sporen,<br/>één <em style={{color:'var(--by-sage-700)'}}>persoonlijk plan</em>.</h2>
+            </div>
+            <p className="by-lead" style={{margin:0,maxWidth:420}}>
+              Kies waar je nu staat. Je coach combineert wat past bij jou — en past het aan bij elke fase van je reis.
+            </p>
+          </div>
+        </div>
+        <div className="reveal programs-grid" style={{display:'grid',gridTemplateColumns:'1fr',gap:32}}>
+          {programs.map((p,i)=>(
+            <article key={i} style={{
+              background:'var(--by-cream-50)',borderRadius:28,boxShadow:'var(--shadow-sm)',overflow:'hidden',
+              transition:'transform 420ms var(--ease-out),box-shadow 420ms var(--ease-out)',
+            }}
+              onMouseEnter={e=>{e.currentTarget.style.transform='translateY(-4px)';e.currentTarget.style.boxShadow='var(--shadow-md)';const img=e.currentTarget.querySelector('.prog-img');if(img)img.style.transform='scale(1.04)'}}
+              onMouseLeave={e=>{e.currentTarget.style.transform='translateY(0)';e.currentTarget.style.boxShadow='var(--shadow-sm)';const img=e.currentTarget.querySelector('.prog-img');if(img)img.style.transform='scale(1)'}}
+            >
+              <div style={{aspectRatio:'5/3',overflow:'hidden',position:'relative',background:'var(--by-sage-100)'}}>
+                <img className="prog-img" src={p.img} alt={p.t}
+                  style={{width:'100%',height:'100%',objectFit:'cover',transition:'transform 520ms var(--ease-out)'}}/>
+                <div style={{
+                  position:'absolute',top:18,left:18,
+                  background:'rgba(250,246,238,0.94)',backdropFilter:'blur(6px)',
+                  borderRadius:999,padding:'6px 14px',
+                  fontSize:11.5,fontWeight:600,letterSpacing:'0.08em',textTransform:'uppercase',color:'var(--by-sage-700)',
+                }}>{p.duration}</div>
+              </div>
+              <div style={{padding:'32px 32px 36px'}}>
+                <h3 style={{margin:'0 0 12px',fontFamily:'var(--font-serif)',fontSize:30,fontWeight:500,letterSpacing:'-0.01em',lineHeight:1.15}}>{p.t}</h3>
+                <p className="by-body" style={{margin:'0 0 24px',fontSize:15.5,maxWidth:480}}>{p.d}</p>
+                <button className="by-btn by-btn--secondary">
+                  Bekijk programma
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── Products ── */
+function Products(){
+  const products = [
+    {t:'Formula 1 Shake',d:'Uitgebalanceerde maaltijdshake met eiwit, vezels en 25 vitaminen.',tag:'Bestseller',hue:['#e8d3a8','#c9a76a']},
+    {t:'Kruidenthee',d:'Boost je metabolisme en hydratatie, dag in dag uit.',tag:'',hue:['#cdd6c9','#799e7d']},
+    {t:'Aloë drink',d:'Ondersteunt spijsvertering met de zachte werking van aloë vera.',tag:'',hue:['#dfe8d6','#a4bf8a']},
+    {t:'Protein Drink Mix',d:'Eiwitten voor herstel, opbouw en verzadiging tussendoor.',tag:'',hue:['#f1e6d6','#d9bf8a']},
+    {t:'Multivitamine',d:'Dagelijkse essentiële vitaminen en mineralen.',tag:'',hue:['#e6ecdf','#638756']},
+    {t:'Skin & Care',d:'Verzorging van binnenuit én buiten, voor stralende huid.',tag:'Nieuw',hue:['#f7efe1','#c9a76a']},
+  ];
+  return (
+    <section id="producten" style={{background:'var(--by-sage-200)',padding:'128px 0',position:'relative',overflow:'hidden'}}>
+      <div aria-hidden="true" style={{position:'absolute',top:-120,left:-120,width:380,height:380,borderRadius:'50%',background:'radial-gradient(circle, rgba(199,167,106,0.18) 0%, transparent 70%)',pointerEvents:'none'}}/>
+      <div className="container" style={{position:'relative'}}>
+        <div className="reveal" style={{textAlign:'center',marginBottom:72,maxWidth:720,margin:'0 auto 72px'}}>
+          <div className="by-eyebrow" style={{marginBottom:14}}>Producten</div>
+          <h2 className="by-h1" style={{textWrap:'balance'}}>Slimme producten,<br/>met een coach <em style={{color:'var(--by-sage-700)'}}>erbij inbegrepen</em>.</h2>
+          <p className="by-lead" style={{marginTop:18}}>
+            Alle begeleiding, marathons en deskundig advies zijn helemaal gratis als je onze producten gebruikt. Premium voeding, premium support.
+          </p>
+        </div>
+        <div className="reveal" style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(220px,1fr))',gap:20}}>
+          {products.map((p,i)=>(
+            <div key={i} style={{
+              background:'var(--by-cream-50)',borderRadius:24,padding:22,
+              transition:'transform 420ms var(--ease-out),box-shadow 420ms var(--ease-out)',boxShadow:'var(--shadow-sm)',
+            }}
+              onMouseEnter={e=>{e.currentTarget.style.transform='translateY(-4px)';e.currentTarget.style.boxShadow='var(--shadow-md)'}}
+              onMouseLeave={e=>{e.currentTarget.style.transform='translateY(0)';e.currentTarget.style.boxShadow='var(--shadow-sm)'}}
+            >
+              <div style={{
+                aspectRatio:'1/1.05',
+                background:`radial-gradient(ellipse at 50% 35%, ${p.hue[0]} 0%, var(--by-cream-100) 80%)`,
+                borderRadius:18,display:'flex',alignItems:'flex-end',justifyContent:'center',
+                marginBottom:18,position:'relative',overflow:'hidden',padding:'0 0 18px',
+              }}>
+                <div style={{
+                  width:'46%',height:'72%',
+                  background:`linear-gradient(180deg, ${p.hue[1]} 0%, ${p.hue[1]} 60%, ${p.hue[0]} 100%)`,
+                  borderRadius:'14px 14px 10px 10px',
+                  boxShadow:'0 12px 32px -10px rgba(42,36,24,0.25),inset 0 1px 0 rgba(255,255,255,0.3)',
+                  position:'relative',
+                }}>
+                  <div style={{position:'absolute',top:0,left:'18%',right:'18%',height:8,background:'rgba(0,0,0,0.18)',borderRadius:'8px 8px 0 0'}}/>
+                  <div style={{
+                    position:'absolute',top:'30%',left:'12%',right:'12%',
+                    background:'rgba(250,246,238,0.95)',borderRadius:6,padding:'8px 6px',textAlign:'center',
+                    fontFamily:'var(--font-serif)',fontStyle:'italic',fontSize:11,color:'var(--by-sage-700)',lineHeight:1.1,
+                  }}>
+                    bettr<br/><span style={{fontSize:10,letterSpacing:'0.1em',fontStyle:'normal',color:'var(--by-cream-500)'}}>YOU</span>
+                  </div>
+                </div>
+                {p.tag && <div style={{
+                  position:'absolute',top:14,right:14,
+                  background:'var(--by-cream-50)',color:'var(--by-sage-700)',
+                  fontSize:10,fontWeight:700,padding:'4px 10px',borderRadius:999,
+                  letterSpacing:'0.1em',textTransform:'uppercase',boxShadow:'var(--shadow-xs)',
+                }}>{p.tag}</div>}
+              </div>
+              <h3 style={{margin:'0 0 6px',fontSize:16,fontWeight:600,letterSpacing:'-0.01em'}}>{p.t}</h3>
+              <p style={{margin:0,fontSize:13.5,lineHeight:1.5,color:'var(--by-ink-3)'}}>{p.d}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── Testimonials ── */
+function Testimonials(){
+  const items = [
+    {n:'Viktor',age:46,city:'Amsterdam',r:'-5 kg in 20 dagen',img:'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=faces',text:'Ik was verrast over de snelle resultaten. Al 2,5 kilo kwijtgeraakt in de eerste tien dagen — en wat indrukwekkend is, is hoeveel extra energie ik heb gekregen. Ik ga er zeker niet mee stoppen.'},
+    {n:'Aliona',age:52,city:'Utrecht',r:'-6 kg in 4 weken',img:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=faces',text:'Eerst was ik sceptisch — maar ik ben zo blij dat ik het probeerde. In vier weken voel ik me energieker dan ik in jaren ben geweest. Mijn huid ziet er stralender uit en mijn haar voelt sterker.'},
+    {n:'Arina',age:25,city:'Rotterdam',r:'Meer focus & rust',img:'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=faces',text:'Ik wilde vooral meer energie. Na drie weken voelde ik me veel fitter, kon ik beter focussen op werk en sliep ik beter. Het past makkelijk in mijn drukke schema, zonder honger.'},
+    {n:'Svetlana',age:52,city:'Den Haag',r:'-21 kg in 5 maanden',img:'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=faces',text:'Ik ben 21 kilo afgevallen en houd dit gewicht nu al bijna twee jaar moeiteloos vast. Van maat 58 naar maat 46. Ik voel me weer mezelf — sterker, actiever en vol leven.'},
+  ];
+  const [idx, setIdx] = useState(0);
+  const [perView, setPerView] = useState(1);
+  useEffect(()=>{
+    const update = ()=> setPerView(window.innerWidth >= 900 ? 2 : 1);
+    update();
+    window.addEventListener('resize', update);
+    return ()=> window.removeEventListener('resize', update);
+  },[]);
+  const max = Math.max(0, items.length - perView);
+  const Star = () => <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--by-cream-500)" stroke="none"><path d="M12 2l2.4 6.9 7.3.4-5.6 4.7 1.9 7L12 17.3 5.9 21l1.9-7L2.3 9.3l7.3-.4z"/></svg>;
+  return (
+    <section id="verhalen" style={{background:'var(--by-cream-200)',padding:'128px 0'}}>
+      <div className="container">
+        <div className="reveal" style={{display:'flex',justifyContent:'space-between',alignItems:'end',gap:24,marginBottom:56,flexWrap:'wrap'}}>
+          <div>
+            <div className="by-eyebrow" style={{marginBottom:14}}>Succesverhalen</div>
+            <h2 className="by-h1" style={{margin:0,textWrap:'balance'}}>Echte mensen,<br/><em style={{color:'var(--by-sage-700)'}}>echte transformaties</em>.</h2>
+          </div>
+          <div style={{display:'flex',gap:8}}>
+            <button aria-label="Vorige" onClick={()=>setIdx(Math.max(0,idx-1))} disabled={idx===0}
+              style={{width:52,height:52,borderRadius:'50%',border:'1.5px solid var(--by-line)',background:'var(--by-cream-50)',cursor:idx===0?'not-allowed':'pointer',opacity:idx===0?0.4:1,display:'flex',alignItems:'center',justifyContent:'center',transition:'all 200ms'}}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--by-ink)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5M11 5l-7 7 7 7"/></svg>
+            </button>
+            <button aria-label="Volgende" onClick={()=>setIdx(Math.min(max,idx+1))} disabled={idx===max}
+              style={{width:52,height:52,borderRadius:'50%',border:'1.5px solid var(--by-line)',background:'var(--by-cream-50)',cursor:idx===max?'not-allowed':'pointer',opacity:idx===max?0.4:1,display:'flex',alignItems:'center',justifyContent:'center',transition:'all 200ms'}}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--by-ink)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div className="reveal" style={{overflow:'hidden'}}>
+          <div style={{
+            display:'flex',gap:24,
+            transform:`translateX(calc(${-idx} * (100% / ${perView}) - ${idx} * ${24/perView}px))`,
+            transition:'transform 520ms var(--ease-out)'
+          }}>
+            {items.map((it,i)=>(
+              <article key={i} style={{
+                flex:`0 0 calc((100% - ${(perView-1)*24}px) / ${perView})`,
+                background:'var(--by-cream-50)',borderRadius:24,padding:0,
+                boxShadow:'var(--shadow-sm)',overflow:'hidden',display:'flex',flexDirection:'column',
+              }}>
+                <div style={{padding:'36px 36px 28px'}}>
+                  <div style={{display:'flex',gap:16,alignItems:'center',marginBottom:24}}>
+                    <img src={it.img} alt={it.n} style={{width:56,height:56,borderRadius:'50%',objectFit:'cover',border:'2px solid var(--by-cream-50)',boxShadow:'var(--shadow-xs)'}}/>
+                    <div style={{flex:1,minWidth:0}}>
+                      <div style={{fontWeight:600,fontSize:15.5,color:'var(--by-ink)'}}>{it.n}, {it.age}</div>
+                      <div style={{fontSize:13,color:'var(--by-ink-3)'}}>{it.city}</div>
+                    </div>
+                    <div style={{background:'var(--by-sage-100)',color:'var(--by-sage-700)',padding:'6px 12px',borderRadius:999,fontSize:11.5,fontWeight:700,letterSpacing:'0.06em',textTransform:'uppercase',whiteSpace:'nowrap'}}>{it.r}</div>
+                  </div>
+                  <div style={{fontFamily:'var(--font-serif)',fontSize:21,lineHeight:1.5,fontStyle:'italic',color:'var(--by-ink)'}}>
+                    <span style={{color:'var(--by-sage-600)',fontSize:38,verticalAlign:-12,marginRight:4,fontStyle:'normal'}}>"</span>
+                    {it.text}
+                  </div>
+                </div>
+                <div style={{marginTop:'auto',padding:'18px 36px',borderTop:'1px solid var(--by-line)',display:'flex',alignItems:'center',gap:8,fontSize:12.5,color:'var(--by-ink-3)'}}>
+                  <Star/><Star/><Star/><Star/><Star/>
+                  <span style={{marginLeft:6}}>Geverifieerde klant</span>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── Coach ── */
+function Coach({onBook}){
+  const stats = [{v:'2.000+',l:'klanten begeleid'},{v:'8 jaar',l:'ervaring'},{v:'4,9 ★',l:'gemiddelde score'}];
+  const credentials = ['Gecertificeerd voedingsexpert','Herbalife Wellness Coach','Lid van de Nederlandse Wellness Federatie'];
+  return (
+    <section id="coach" style={{padding:'128px 0',position:'relative'}}>
+      <div className="container">
+        <style>{`@media(min-width:900px){.coach-grid{grid-template-columns:0.95fr 1.05fr !important;gap:88px !important}}`}</style>
+        <div className="coach-grid reveal" style={{display:'grid',gridTemplateColumns:'1fr',gap:48,alignItems:'center'}}>
+          <div style={{position:'relative'}}>
+            <div style={{aspectRatio:'4/5',borderRadius:28,overflow:'hidden',boxShadow:'var(--shadow-lg)',background:'var(--by-sage-100)',position:'relative'}}>
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=900&h=1100&fit=crop" alt="Olga — Wellness Coach"
+                style={{width:'100%',height:'100%',objectFit:'cover'}}/>
+            </div>
+            <div style={{
+              position:'absolute',bottom:-22,right:-14,
+              background:'var(--by-sage-600)',color:'var(--by-cream-50)',
+              borderRadius:20,padding:'18px 22px',boxShadow:'var(--shadow-md)',maxWidth:220,
+              animation:'float 7s ease-in-out infinite',
+            }}>
+              <div style={{fontFamily:'var(--font-serif)',fontStyle:'italic',fontSize:18,lineHeight:1.3,marginBottom:6}}>
+                "Iedereen verdient een coach die luistert."
+              </div>
+              <div style={{fontSize:11.5,letterSpacing:'0.08em',textTransform:'uppercase',opacity:0.85,fontWeight:600}}>— Olga</div>
+            </div>
+            <div style={{
+              position:'absolute',top:24,left:-18,
+              background:'var(--by-cream-50)',borderRadius:18,padding:'14px 18px 14px 14px',
+              boxShadow:'var(--shadow-md)',display:'flex',alignItems:'center',gap:12,
+              border:'1px solid var(--by-line)',animation:'float 6s ease-in-out infinite reverse',
+            }}>
+              <div style={{width:38,height:38,borderRadius:'50%',background:'var(--by-cream-300)',display:'flex',alignItems:'center',justifyContent:'center'}}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--by-cream-500)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l3 6 6 .9-4.5 4.4 1 6.7L12 17l-5.5 3 1-6.7L3 8.9 9 8z"/></svg>
+              </div>
+              <div style={{fontSize:12.5,lineHeight:1.3}}>
+                <b style={{display:'block',color:'var(--by-ink)',fontWeight:600}}>Gecertificeerd</b>
+                <span style={{color:'var(--by-ink-3)'}}>Wellness Coach</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="by-eyebrow" style={{marginBottom:14}}>Over je coach</div>
+            <h2 className="by-h1" style={{margin:'0 0 24px',textWrap:'balance'}}>Olga — je gids<br/>naar een <em style={{color:'var(--by-sage-700)'}}>betere jij</em>.</h2>
+            <p className="by-lead" style={{margin:'0 0 20px',maxWidth:520}}>
+              Acht jaar geleden begon ik mijn eigen reis. Geen strenge diëten, geen druk — gewoon kleine slimme keuzes die ik volhield. Nu help ik anderen hetzelfde doen.
+            </p>
+            <p className="by-body" style={{margin:'0 0 32px',maxWidth:520}}>
+              Ik geloof in een rustige, blijvende verandering. We beginnen met een gesprek — geen verkooppraatje. Daarna een plan dat past bij jouw leven, jouw tempo en jouw doelen.
+            </p>
+            <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:16,marginBottom:32,maxWidth:480}}>
+              {stats.map((s,i)=>(
+                <div key={i} style={{background:'var(--by-cream-100)',borderRadius:16,padding:'18px 16px'}}>
+                  <div style={{fontFamily:'var(--font-serif)',fontSize:30,fontWeight:500,color:'var(--by-sage-700)',lineHeight:1,marginBottom:6}}>{s.v}</div>
+                  <div style={{fontSize:12,color:'var(--by-ink-3)',letterSpacing:'0.02em'}}>{s.l}</div>
+                </div>
+              ))}
+            </div>
+            <ul style={{listStyle:'none',padding:0,margin:'0 0 36px',display:'grid',gap:10}}>
+              {credentials.map((c,i)=>(
+                <li key={i} style={{display:'flex',alignItems:'center',gap:12,fontSize:15,color:'var(--by-ink-2)'}}>
+                  <span style={{width:22,height:22,borderRadius:'50%',background:'var(--by-sage-100)',display:'inline-flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--by-sage-700)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                  </span>
+                  {c}
+                </li>
+              ))}
+            </ul>
+            <button onClick={onBook} className="by-btn by-btn--primary by-btn--lg">PLAN EEN KENNISMAKING</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── Membership ── */
+function Membership({onBook}){
+  const tiers = [
+    {name:'Starter',price:'89',tagline:'Maak kennis met de aanpak.',featured:false,features:['Persoonlijke intake','4 weken begeleiding','Voedingsplan op maat','Toegang tot community']},
+    {name:'Transformatie',price:'179',tagline:'Het meest gekozen — voor blijvend resultaat.',featured:true,features:['Persoonlijke intake','12 weken 1-op-1 coaching','Voedingsplan + producten','Wekelijkse check-ins','Wellness marathons','Geld terug bij geen resultaat']},
+    {name:'Lifestyle',price:'249',tagline:'Voor wie het langer wil volhouden.',featured:false,features:['Alles uit Transformatie','6 maanden begeleiding','Sport- & herstelplan','Skin & care advies','Prioriteit support']},
+  ];
+  return (
+    <section id="lidmaatschap" style={{background:'var(--by-cream-200)',padding:'128px 0'}}>
+      <div className="container">
+        <div className="reveal" style={{textAlign:'center',marginBottom:72,maxWidth:680,margin:'0 auto 72px'}}>
+          <div className="by-eyebrow" style={{marginBottom:14}}>Start vandaag</div>
+          <h2 className="by-h1" style={{textWrap:'balance'}}>Kies wat past bij<br/><em style={{color:'var(--by-sage-700)'}}>jouw reis</em>.</h2>
+          <p className="by-lead" style={{marginTop:18}}>Geen verborgen kosten. Geen lange contracten. Alleen begeleiding die werkt.</p>
+        </div>
+        <style>{`@media(min-width:900px){.tier-grid{grid-template-columns:repeat(3,1fr) !important}}`}</style>
+        <div className="reveal tier-grid" style={{display:'grid',gridTemplateColumns:'1fr',gap:24,maxWidth:1120,margin:'0 auto',alignItems:'stretch'}}>
+          {tiers.map((t,i)=>(
+            <article key={i} style={{
+              background:t.featured?'var(--by-sage-600)':'var(--by-cream-50)',
+              color:t.featured?'var(--by-cream-50)':'var(--by-ink)',
+              borderRadius:24,padding:'40px 32px 36px',
+              boxShadow:t.featured?'var(--shadow-lg)':'var(--shadow-sm)',
+              border:t.featured?'none':'1px solid var(--by-line)',
+              position:'relative',transform:t.featured?'translateY(-12px)':'none',
+              display:'flex',flexDirection:'column',
+            }}>
+              {t.featured && (
+                <div style={{
+                  position:'absolute',top:-14,left:'50%',transform:'translateX(-50%)',
+                  background:'var(--by-cream-500)',color:'var(--by-cream-50)',
+                  padding:'6px 16px',borderRadius:999,
+                  fontSize:11,fontWeight:700,letterSpacing:'0.12em',textTransform:'uppercase',
+                  whiteSpace:'nowrap',boxShadow:'var(--shadow-sm)',
+                }}>Meest gekozen</div>
+              )}
+              <div style={{fontSize:12,fontWeight:700,letterSpacing:'0.16em',textTransform:'uppercase',color:t.featured?'var(--by-cream-300)':'var(--by-sage-700)',marginBottom:16}}>{t.name}</div>
+              <div style={{display:'flex',alignItems:'baseline',gap:6,marginBottom:8}}>
+                <span style={{fontSize:14,opacity:t.featured?0.85:1,color:t.featured?'var(--by-cream-200)':'var(--by-ink-3)'}}>€</span>
+                <span style={{fontFamily:'var(--font-serif)',fontSize:64,fontWeight:500,lineHeight:1,letterSpacing:'-0.02em'}}>{t.price}</span>
+                <span style={{fontSize:14,opacity:t.featured?0.85:1,color:t.featured?'var(--by-cream-200)':'var(--by-ink-3)'}}>/ maand</span>
+              </div>
+              <p style={{margin:'0 0 28px',fontSize:14.5,lineHeight:1.5,color:t.featured?'var(--by-cream-200)':'var(--by-ink-3)'}}>{t.tagline}</p>
+              <ul style={{listStyle:'none',padding:0,margin:'0 0 32px',display:'grid',gap:12,flex:1}}>
+                {t.features.map((f,j)=>(
+                  <li key={j} style={{display:'flex',gap:12,alignItems:'flex-start',fontSize:14.5,color:t.featured?'var(--by-cream-100)':'var(--by-ink-2)'}}>
+                    <span style={{width:20,height:20,borderRadius:'50%',background:t.featured?'rgba(250,246,238,0.18)':'var(--by-sage-100)',display:'inline-flex',alignItems:'center',justifyContent:'center',flexShrink:0,marginTop:1}}>
+                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke={t.featured?'var(--by-cream-50)':'var(--by-sage-700)'} strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                    </span>
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <button onClick={onBook} className="by-btn by-btn--lg" style={t.featured?{background:'var(--by-cream-50)',color:'var(--by-sage-700)',width:'100%'}:{background:'var(--by-sage-600)',color:'var(--by-cream-50)',width:'100%',border:'none'}}>
+                {t.featured?'START TRANSFORMATIE':'KIES DIT PAKKET'}
+              </button>
+            </article>
+          ))}
+        </div>
+        <p className="reveal" style={{textAlign:'center',marginTop:40,fontSize:13,color:'var(--by-ink-3)'}}>
+          Niet zeker welk pakket past? <a href="#coach" style={{color:'var(--by-sage-700)',textDecoration:'underline',textUnderlineOffset:3}}>Plan een gratis kennismaking</a>.
+        </p>
+      </div>
+    </section>
+  );
+}
+
+/* ── FAQ ── */
+function FAQ(){
+  const items = [
+    {q:'Hoe werkt het programma precies?',a:'Je begint met een gratis intake. We bespreken je doelen, leefstijl en eventuele uitdagingen. Daarna stel ik een persoonlijk plan op met voeding, eventuele producten, en wekelijkse check-ins. Je hebt 24/7 toegang tot mij en de community.'},
+    {q:'Moet ik strenge diëten volgen?',a:'Nee. Het hele uitgangspunt is dat je geen honger lijdt en geen voedsel hoeft te schrappen. We werken met uitgebalanceerde maaltijden, slimme shakes en kleine gewoontes die in jouw leven passen.'},
+    {q:'Hoe snel zie ik resultaat?',a:'De meeste klanten merken al in de eerste week meer energie en betere slaap. Zichtbare resultaten op de weegschaal of in de spiegel volgen meestal binnen 2 tot 4 weken — afhankelijk van je startpunt en doelen.'},
+    {q:'Wat als ik geen resultaat behaal?',a:'Wij geloven in onze aanpak. Behaal je je doel niet binnen het programma? Dan krijg je je geld terug. Geen kleine lettertjes — we doen dit samen.'},
+    {q:'Zijn de producten verplicht?',a:'Voor de Transformatie- en Lifestyle-pakketten zijn de producten onderdeel van het plan. Voor Starter werken we met je huidige voeding en geef ik gericht advies.'},
+    {q:'Voor wie is dit niet geschikt?',a:'Als je een medische aandoening hebt, raden we je aan eerst met je arts te overleggen. We werken niet met extreme calorierestricties en stemmen alles op je gezondheid af.'},
+  ];
+  const [open, setOpen] = useState(0);
+  return (
+    <section id="faq" style={{padding:'128px 0'}}>
+      <div className="container" style={{maxWidth:880}}>
+        <div className="reveal" style={{textAlign:'center',marginBottom:64}}>
+          <div className="by-eyebrow" style={{marginBottom:14}}>Veelgestelde vragen</div>
+          <h2 className="by-h1" style={{textWrap:'balance'}}>Antwoorden op de<br/>vragen die <em style={{color:'var(--by-sage-700)'}}>jij stelt</em>.</h2>
+        </div>
+        <div className="reveal" style={{display:'grid',gap:12}}>
+          {items.map((it,i)=>{
+            const isOpen = open === i;
+            return (
+              <div key={i} style={{
+                background:'var(--by-cream-50)',borderRadius:18,border:'1px solid var(--by-line)',overflow:'hidden',
+                transition:'box-shadow 320ms var(--ease-out)',boxShadow:isOpen?'var(--shadow-sm)':'none',
+              }}>
+                <button
+                  onClick={()=>setOpen(isOpen?-1:i)}
+                  aria-expanded={isOpen}
+                  style={{width:'100%',display:'flex',justifyContent:'space-between',alignItems:'center',gap:20,padding:'24px 28px',background:'transparent',border:'none',cursor:'pointer',fontFamily:'inherit',textAlign:'left',color:'var(--by-ink)'}}
+                >
+                  <span style={{fontSize:17,fontWeight:600,lineHeight:1.4,letterSpacing:'-0.01em'}}>{it.q}</span>
+                  <span style={{width:34,height:34,borderRadius:'50%',background:isOpen?'var(--by-sage-600)':'var(--by-sage-100)',display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0,transition:'all 320ms var(--ease-out)'}}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                      stroke={isOpen?'var(--by-cream-50)':'var(--by-sage-700)'}
+                      strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"
+                      style={{transform:isOpen?'rotate(45deg)':'rotate(0)',transition:'transform 320ms var(--ease-out)'}}>
+                      <path d="M12 5v14M5 12h14"/>
+                    </svg>
+                  </span>
+                </button>
+                <div style={{maxHeight:isOpen?400:0,overflow:'hidden',transition:'max-height 420ms var(--ease-out)'}}>
+                  <div style={{padding:'0 28px 26px',fontSize:15.5,lineHeight:1.65,color:'var(--by-ink-3)',maxWidth:680}}>
+                    {it.a}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── FinalCTA ── */
+function FinalCTA({onBook}){
+  return (
+    <section style={{padding:'96px 0'}}>
+      <div className="container">
+        <div className="reveal" style={{
+          position:'relative',borderRadius:36,overflow:'hidden',minHeight:520,
+          display:'flex',alignItems:'center',justifyContent:'center',
+          padding:'96px 32px',color:'var(--by-cream-50)',boxShadow:'var(--shadow-lg)',
+        }}>
+          <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1600&h=900&fit=crop" alt=""
+            style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',filter:'saturate(0.9)'}}/>
+          <div aria-hidden="true" style={{position:'absolute',inset:0,background:'linear-gradient(135deg, rgba(63,85,54,0.88) 0%, rgba(95,130,83,0.82) 100%)'}}/>
+          <div aria-hidden="true" style={{position:'absolute',top:-160,right:-160,width:520,height:520,borderRadius:'50%',background:'radial-gradient(circle, rgba(201,167,106,0.25) 0%, transparent 70%)'}}/>
+          <div style={{position:'relative',textAlign:'center',maxWidth:720}}>
+            <div style={{fontWeight:700,fontSize:12,letterSpacing:'0.18em',textTransform:'uppercase',color:'var(--by-cream-300)',marginBottom:22,display:'inline-flex',alignItems:'center',gap:10}}>
+              <span style={{width:24,height:1,background:'var(--by-cream-500)'}}/>
+              Begin vandaag
+              <span style={{width:24,height:1,background:'var(--by-cream-500)'}}/>
+            </div>
+            <h2 style={{fontFamily:'var(--font-serif)',fontSize:'clamp(40px,5.6vw,76px)',lineHeight:1.05,letterSpacing:'-0.02em',margin:'0 0 24px',fontWeight:500,textWrap:'balance'}}>
+              Vandaag is een goede dag<br/>om <em style={{fontStyle:'italic',color:'var(--by-cream-400)'}}>te beginnen</em>.
+            </h2>
+            <p style={{fontSize:19,lineHeight:1.55,maxWidth:560,margin:'0 auto 40px',color:'var(--by-cream-200)'}}>
+              Vul de korte vragenlijst in en ontvang een persoonlijk plan. Geheel vrijblijvend — je coach reageert binnen 24 uur.
+            </p>
+            <div style={{display:'flex',gap:12,justifyContent:'center',flexWrap:'wrap'}}>
+              <button onClick={onBook} className="by-btn by-btn--lg" style={{background:'var(--by-cream-50)',color:'var(--by-sage-700)'}}>LATEN WE BEGINNEN!</button>
+              <a href="https://wa.me/31619085862" target="_blank" rel="noopener noreferrer" className="by-btn by-btn--lg" style={{background:'transparent',color:'var(--by-cream-50)',border:'1.5px solid rgba(250,246,238,0.45)'}}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-1.3 4.5 8.5 8.5 0 0 1-7.2 4 8.4 8.4 0 0 1-4-1L3 21l1.9-5.5a8.4 8.4 0 0 1-1-4 8.5 8.5 0 0 1 4-7.2 8.4 8.4 0 0 1 4.5-1.3h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg>
+                WhatsApp
+              </a>
+            </div>
+            <div style={{display:'flex',justifyContent:'center',alignItems:'center',gap:24,marginTop:32,fontSize:12.5,color:'var(--by-cream-300)',flexWrap:'wrap'}}>
+              {['Geen lange contracten','Geld terug garantie','24/7 community'].map(t=>(
+                <span key={t} style={{display:'inline-flex',alignItems:'center',gap:6}}>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── Footer ── */
+function Footer(){
+  const socialPaths = [
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6Z M2 9h4v12H2zM4 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"/>,
+    <><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></>,
+    <path d="M22 12c-1 6-5 9-10 9s-9-3-10-9c1-6 5-9 10-9s9 3 10 9ZM10 8v8l6-4-6-4Z"/>,
+  ];
+  return (
+    <footer style={{background:'var(--by-cream-100)',padding:'72px 0 32px',borderTop:'1px solid var(--by-line)'}}>
+      <div className="container">
+        <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(200px,1fr))',gap:40,marginBottom:48}}>
+          <div>
+          <Logo iconH={64} fontSize={42} subSize={10} gap={16}/>
+            <p style={{margin:0,fontSize:14,color:'var(--by-ink-3)',lineHeight:1.55,maxWidth:280}}>
+              Wellness & nutrition coaching. Voor wie kiest voor blijvende verandering.
+            </p>
+          </div>
+          <div>
+            <div style={{fontWeight:600,fontSize:13,letterSpacing:'0.08em',textTransform:'uppercase',color:'var(--by-ink)',marginBottom:14}}>Programma's</div>
+            {['Gewichtsbeheersing','Energie & nutrition','Coaching','Fitness support','Skin & care'].map(l => (
+              <div key={l}><a href="#" style={{display:'block',padding:'5px 0',fontSize:14,color:'var(--by-ink-2)'}}>{l}</a></div>
+            ))}
+          </div>
+          <div>
+            <div style={{fontWeight:600,fontSize:13,letterSpacing:'0.08em',textTransform:'uppercase',color:'var(--by-ink)',marginBottom:14}}>Bedrijf</div>
+            {['Over ons','Verhalen','Coaches','Partnership','Contact'].map(l => (
+              <div key={l}><a href="#" style={{display:'block',padding:'5px 0',fontSize:14,color:'var(--by-ink-2)'}}>{l}</a></div>
+            ))}
+          </div>
+          <div>
+            <div style={{fontWeight:600,fontSize:13,letterSpacing:'0.08em',textTransform:'uppercase',color:'var(--by-ink)',marginBottom:14}}>Contact</div>
+            <a href="https://wa.me/31619085862" style={{display:'block',padding:'5px 0',fontSize:14,color:'var(--by-ink-2)'}}>WhatsApp · +31 6 19 08 58 62</a>
+            <a href="mailto:hi@bettryou.nl" style={{display:'block',padding:'5px 0',fontSize:14,color:'var(--by-ink-2)'}}>hi@bettryou.nl</a>
+            <div style={{display:'flex',gap:10,marginTop:14}}>
+              {socialPaths.map((path,i) => (
+                <a key={i} href="#" style={{width:36,height:36,borderRadius:'50%',background:'var(--by-cream-50)',display:'flex',alignItems:'center',justifyContent:'center',border:'1px solid var(--by-line)'}}>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--by-ink-2)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">{path}</svg>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:24,borderTop:'1px solid var(--by-line)',fontSize:12,color:'var(--by-ink-3)',flexWrap:'wrap',gap:12}}>
+          <div>© 2026 Bettr You · Wellness & Nutrition Coaching · KvK 12345678</div>
+          <div style={{display:'flex',gap:18}}>
+            <a href="#">Privacy</a><a href="#">Cookies</a><a href="#">Algemene voorwaarden</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+/* ── StickyMobileCTA ── */
+function StickyMobileCTA({onBook}){
+  return (
+    <>
+      <div className="sticky-mobile-cta" style={{
+        position:'fixed',bottom:16,left:16,right:16,
+        background:'var(--by-cream-50)',borderRadius:20,boxShadow:'var(--shadow-lg)',
+        padding:'12px 14px 12px 18px',display:'none',alignItems:'center',gap:12,
+        zIndex:50,border:'1px solid var(--by-line)',
+      }}>
+        <div style={{flex:1,minWidth:0}}>
+          <div style={{fontSize:13,fontWeight:600,color:'var(--by-ink)'}}>Klaar om te beginnen?</div>
+          <div style={{fontSize:11.5,color:'var(--by-ink-3)'}}>Gratis intake — vrijblijvend</div>
+        </div>
+        <button onClick={onBook} className="by-btn by-btn--primary by-btn--sm">BOEK</button>
+      </div>
+      <style>{`@media(max-width:767px){.sticky-mobile-cta{display:flex !important}body{padding-bottom:80px}}`}</style>
+    </>
+  );
+}
+
+/* ── Booking Modal ── */
+function BookingModal({onClose}){
+  const [step, setStep] = useState(0);
+  const [data, setData] = useState({goal:'',name:'',email:''});
+  const goals = ['Afvallen','Meer energie','Sportprestaties','Algeheel welzijn'];
+  return (
+    <div className="modal-bg" onClick={onClose}>
+      <div className="modal-card" onClick={e=>e.stopPropagation()}>
+        {step === 0 && <>
+          <div className="by-eyebrow" style={{marginBottom:8}}>Stap 1 van 2</div>
+          <h3 style={{margin:'0 0 12px',fontFamily:'var(--font-serif)',fontWeight:500,fontSize:32,letterSpacing:'-0.02em',lineHeight:1.1}}>Wat is jouw doel?</h3>
+          <p className="by-body" style={{margin:'0 0 24px'}}>We stellen een persoonlijk plan op. Eerst even — waar wil je heen?</p>
+          <div style={{display:'grid',gap:10}}>
+            {goals.map(g => (
+              <button key={g}
+                onClick={()=>{setData({...data,goal:g});setStep(1)}}
+                style={{textAlign:'left',padding:'16px 20px',borderRadius:14,border:'1.5px solid var(--by-line)',background:data.goal===g?'var(--by-sage-100)':'var(--by-white)',cursor:'pointer',fontSize:15,fontWeight:500,color:'var(--by-ink)',transition:'all 200ms'}}
+                onMouseEnter={e=>{e.currentTarget.style.borderColor='var(--by-sage-500)';e.currentTarget.style.background='var(--by-sage-100)'}}
+                onMouseLeave={e=>{if(data.goal!==g){e.currentTarget.style.borderColor='var(--by-line)';e.currentTarget.style.background='var(--by-white)'}}}
+              >{g}</button>
+            ))}
+          </div>
+        </>}
+        {step === 1 && <>
+          <div className="by-eyebrow" style={{marginBottom:8}}>Stap 2 van 2</div>
+          <h3 style={{margin:'0 0 12px',fontFamily:'var(--font-serif)',fontWeight:500,fontSize:32,letterSpacing:'-0.02em',lineHeight:1.1}}>Hoe kunnen we je bereiken?</h3>
+          <p className="by-body" style={{margin:'0 0 24px'}}>Je coach neemt binnen 24 uur contact op — geheel vrijblijvend.</p>
+          <div style={{display:'grid',gap:14}}>
+            <input placeholder="Naam" value={data.name} onChange={e=>setData({...data,name:e.target.value})}
+              style={{padding:'14px 18px',borderRadius:14,border:'1.5px solid var(--by-line)',fontSize:15,fontFamily:'inherit',background:'var(--by-white)'}}/>
+            <input placeholder="E-mail" type="email" value={data.email} onChange={e=>setData({...data,email:e.target.value})}
+              style={{padding:'14px 18px',borderRadius:14,border:'1.5px solid var(--by-line)',fontSize:15,fontFamily:'inherit',background:'var(--by-white)'}}/>
+          </div>
+          <div style={{display:'flex',gap:10,marginTop:24}}>
+            <button onClick={()=>setStep(0)} className="by-btn by-btn--ghost" style={{flex:1}}>Terug</button>
+            <button onClick={()=>setStep(2)} className="by-btn by-btn--primary" style={{flex:2}}>VERSTUUR</button>
+          </div>
+        </>}
+        {step === 2 && <>
+          <div style={{width:64,height:64,borderRadius:'50%',background:'var(--by-sage-100)',display:'flex',alignItems:'center',justifyContent:'center',margin:'0 auto 18px'}}>
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--by-sage-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <h3 style={{margin:'0 0 10px',fontFamily:'var(--font-serif)',fontWeight:500,fontSize:30,letterSpacing:'-0.02em',lineHeight:1.1,textAlign:'center'}}>Bedankt, {data.name || 'je'}!</h3>
+          <p className="by-body" style={{margin:'0 0 24px',textAlign:'center'}}>Je coach neemt binnen 24 uur contact op.</p>
+          <button onClick={onClose} className="by-btn by-btn--primary" style={{width:'100%'}}>SLUITEN</button>
+        </>}
+      </div>
+    </div>
+  );
+}
+
+/* ── App ── */
+function App(){
+  const [booking, setBooking] = useState(false);
+  const open = ()=>setBooking(true);
+
+  useEffect(()=>{
+    const els = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver(entries=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    },{threshold:0.08,rootMargin:'0px 0px -40px 0px'});
+    els.forEach(el=>io.observe(el));
+    return ()=> io.disconnect();
+  },[]);
+
+  useEffect(()=>{
+    if(!booking) return;
+    const onKey = e => { if(e.key==='Escape') setBooking(false); };
+    window.addEventListener('keydown', onKey);
+    return ()=> window.removeEventListener('keydown', onKey);
+  },[booking]);
+
+  return (
+    <div>
+      <Nav onBook={open}/>
+      <main>
+        <Hero onBook={open}/>
+        <Benefits/>
+        <Programs/>
+        <Products/>
+        <Testimonials/>
+        <Coach onBook={open}/>
+        <Membership onBook={open}/>
+        <FAQ/>
+        <FinalCTA onBook={open}/>
+      </main>
+      <Footer/>
+      <StickyMobileCTA onBook={open}/>
+      {booking && <BookingModal onClose={()=>setBooking(false)}/>}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>
